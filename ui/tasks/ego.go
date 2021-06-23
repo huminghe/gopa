@@ -5,10 +5,10 @@ package tasks
 
 import (
 	"fmt"
-	"github.com/infinitbyte/framework/core/i18n"
-	"github.com/infinitbyte/framework/core/ui"
-	"github.com/infinitbyte/framework/modules/ui/common"
-	"github.com/infinitbyte/gopa/model"
+	"github.com/huminghe/framework/core/i18n"
+	"github.com/huminghe/framework/core/ui"
+	"github.com/huminghe/framework/modules/ui/common"
+	"github.com/huminghe/gopa/model"
 	"html"
 	"io"
 	"net/http"

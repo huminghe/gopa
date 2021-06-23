@@ -17,8 +17,8 @@ limitations under the License.
 package api
 
 import (
-	"github.com/infinitbyte/framework/core/queue"
-	"github.com/infinitbyte/framework/core/util"
+	"github.com/huminghe/framework/core/queue"
+	"github.com/huminghe/framework/core/util"
 	"net/http"
 )
 

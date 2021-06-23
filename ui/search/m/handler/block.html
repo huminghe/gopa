@@ -1,8 +1,8 @@
 <%! func Block(w io.Writer,r *http.Request,q string,filter string,from int,size int,config *common.UIConfig, response *elastic.SearchResponse) error %>
 <%% import "net/http" %%>
-<%% import "github.com/infinitbyte/gopa/ui/search/common" %%>
-<%% import "github.com/infinitbyte/framework/core/elastic" %%>
-<%% import "github.com/infinitbyte/framework/core/util" %%>
+<%% import "github.com/huminghe/gopa/ui/search/common" %%>
+<%% import "github.com/huminghe/framework/core/elastic" %%>
+<%% import "github.com/huminghe/framework/core/util" %%>
 <%% import "fmt" %%>
 
 <% if len(response.Hits.Hits)>0 { %>

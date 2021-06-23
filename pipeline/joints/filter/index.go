@@ -21,12 +21,12 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/elastic"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/core/queue"
-	"github.com/infinitbyte/gopa/config"
-	"github.com/infinitbyte/gopa/model"
-	"github.com/infinitbyte/gopa/pipeline/joints/common"
+	"github.com/huminghe/framework/core/elastic"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/core/queue"
+	"github.com/huminghe/gopa/config"
+	"github.com/huminghe/gopa/model"
+	"github.com/huminghe/gopa/pipeline/joints/common"
 )
 
 // IndexJoint is used to send snapshot and task info into index

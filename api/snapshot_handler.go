@@ -18,11 +18,11 @@ package api
 
 import (
 	log "github.com/cihub/seelog"
-	. "github.com/infinitbyte/framework/core/api"
-	"github.com/infinitbyte/framework/core/api/router"
-	"github.com/infinitbyte/framework/core/kv"
-	"github.com/infinitbyte/gopa/config"
-	"github.com/infinitbyte/gopa/model"
+	. "github.com/huminghe/framework/core/api"
+	"github.com/huminghe/framework/core/api/router"
+	"github.com/huminghe/framework/core/kv"
+	"github.com/huminghe/gopa/config"
+	"github.com/huminghe/gopa/model"
 	_ "github.com/jmoiron/jsonq"
 	"net/http"
 	"strconv"

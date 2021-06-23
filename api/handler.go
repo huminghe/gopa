@@ -17,7 +17,7 @@ limitations under the License.
 package api
 
 import (
-	"github.com/infinitbyte/framework/core/api"
+	"github.com/huminghe/framework/core/api"
 )
 
 // API namespace

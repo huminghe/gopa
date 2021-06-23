@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/filter"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/core/queue"
-	"github.com/infinitbyte/framework/core/util"
-	"github.com/infinitbyte/gopa/config"
-	"github.com/infinitbyte/gopa/model"
+	"github.com/huminghe/framework/core/filter"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/core/queue"
+	"github.com/huminghe/framework/core/util"
+	"github.com/huminghe/gopa/config"
+	"github.com/huminghe/gopa/model"
 	"strings"
 )
 

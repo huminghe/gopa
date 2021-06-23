@@ -3,9 +3,9 @@ package chrome
 import (
 	"fmt"
 	log "github.com/cihub/seelog"
-	. "github.com/infinitbyte/framework/core/config"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/plugins/chrome/joint"
+	. "github.com/huminghe/framework/core/config"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/plugins/chrome/joint"
 	"os"
 	"os/exec"
 )

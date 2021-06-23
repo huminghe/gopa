@@ -18,8 +18,8 @@ package filter
 
 import (
 	"fmt"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/model"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/model"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

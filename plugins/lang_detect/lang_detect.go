@@ -17,10 +17,10 @@ limitations under the License.
 package lang_detect
 
 import (
-	"github.com/infinitbyte/framework/core/errors"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/model"
-	"github.com/jbowles/nlpt-detect"
+	"github.com/huminghe/framework/core/errors"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/model"
+	"github.com/huminghe/nlpt-detect"
 )
 
 // LanguageDetectJoint used to detect the language of the webpage

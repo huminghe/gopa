@@ -5,8 +5,8 @@ import (
 	"compress/gzip"
 	"encoding/base64"
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/util"
-	"github.com/infinitbyte/framework/core/vfs"
+	"github.com/huminghe/framework/core/util"
+	"github.com/huminghe/framework/core/vfs"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -86,7 +86,7 @@ var data = map[string]*vfs.VFile{
 	"/assets/css/loadmore.css": {
 		FileName:   "assets/css/loadmore.css",
 		FileSize:   1721,
-		ModifyTime: 1514271253,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/5xUsW7bPBDe9RQH/AiQBD8VOY0cm1kK9ElokZIPpkiBYmIlhacuRZfuDVCkQIeOHYp2
 aR7HQfMWBU1JluU4dRsggny6j3f3Hb/v5Pg4IO3f8t3dr/v7h9tvy88fHu5+LH++X38jwfFJEIRSM55r
@@ -105,7 +105,7 @@ gHUkRSkpJJfGyf+Vm3CXzy6C3wEAAP//R/EYirkGAAA=
 	"/assets/css/m/search_style.css": {
 		FileName:   "assets/css/m/search_style.css",
 		FileSize:   3422,
-		ModifyTime: 1514270523,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/+RW227jNhB991cMEAS7C4SGfMkGZV9aFOhvLChybBGhSIGkbGeL9NsLkpItyZLspC8F
 SiVIeJkZ8pyZQy5dfiK8dt6U8NcCQEhXKfZGQWolNZJcGf766wKgMk56aTQFi4p5ecAwepTCFxS+Z1l1
@@ -128,7 +128,7 @@ GeZpkqOQLv8EAAD//zt4y59eDQAA
 	"/assets/css/m/style.css": {
 		FileName:   "assets/css/m/style.css",
 		FileSize:   6705,
-		ModifyTime: 1514282340,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/6RYX2/byBF/Fj/FnIXgWtXUX0uxSfSBlmVbOMVyJeWcXFEIK3IlbUNy2eXKViL4rX1L
 cejDoTgcWiAFWrRAr33oW65pvkwTJ0/9CsXukhJJUZegtRBE2p2Z3Zn5zW9nV+teXD4cwUorTKnP9Sny
@@ -177,7 +177,7 @@ KY09gZKEaqmilN+8fnX31R937OBW+28AAAD//whlhpgxGgAA
 	"/assets/css/search/index.css": {
 		FileName:   "assets/css/search/index.css",
 		FileSize:   209,
-		ModifyTime: 1506164087,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/0yNzQ6CMAyA73uKJsabJPMgieNpBi1bdSsESpQY3t0o+JOevu9L26g5HeoOZ3gYAIAb
 o0YHR2v31VtE4hDVwfkjsh8CiwO7Yu8RWcKXM0uxHSlPtr+vtvbNNQzdJOhg15avqcxizN9n5LFPfnbQ
@@ -188,7 +188,7 @@ Jtq2fOIgBSvl0UFDojSs4TKNyu1cNJ0oif7iYp4BAAD//1s9SIXRAAAA
 	"/assets/css/search/search.css": {
 		FileName:   "assets/css/search/search.css",
 		FileSize:   86,
-		ModifyTime: 1506166595,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/xTGzQmAMAwG0Hun+AbIoeBNp6kmlmK0tT8giLtL3ukF5iqtEVbN23GP3IXAStiTKDfp
 tjiqELISCqHYh+J1MGeoMV0zPDym8sAv7nN/AAAA//+r5oC4VgAAAA==
@@ -198,7 +198,7 @@ tjiqELISCqHYh+J1MGeoMV0zPDym8sAv7nN/AAAA//+r5oC4VgAAAA==
 	"/assets/css/search_style.css": {
 		FileName:   "assets/css/search_style.css",
 		FileSize:   3460,
-		ModifyTime: 1527928282,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/+RXbW/jNgz+nl9BoCjuDqgC56VXTPuyYcD+xkGWmFioLBmSnKY3dL99kGQljmO7afdl
 wJQWrV5Iig/JR8zSlUfCW+dNDX8tAIR0jWKvFKRWUiMpleHPvy4AGuOkl0ZTsKiYlwcMq7XU5EUKX9Ft
@@ -221,7 +221,7 @@ NpRzP6/tlGGeJjoK6fJPAAAA//8L3V9jhA0AAA==
 	"/assets/css/style.css": {
 		FileName:   "assets/css/style.css",
 		FileSize:   7061,
-		ModifyTime: 1520233310,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/6RZT2/byBU/W4C+w8RCsK1rypJsyTaJHmhZtoVVLFdS1skWhTAih9I0JIclR5YSIbf2
 lmLRw6JYLFogBVq0QLc99JZtmi/TxMmpX6GYfxT/KTFaE0HimffezPvz+82bSbnUvbx6OAKrcmnLIT7V
@@ -271,7 +271,7 @@ AA==
 	"/assets/css/tasks.css": {
 		FileName:   "assets/css/tasks.css",
 		FileSize:   143,
-		ModifyTime: 1496674736,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/zTLUQrCMAzG8feeIheoB2gOI2kTRfphRjYpIru7uNWXkO8H/8tNHjC9brL2TyIiqtL6
 Pfz11EJvA3zw4c3hUShMOe1pkwqjWXioRW4OyLJa+T9nNzw01zDp5bhZAD51hCwTf5vT/g0AAP//ivV6
@@ -282,7 +282,7 @@ Eo8AAAA=
 	"/assets/js/footer.js": {
 		FileName:   "assets/js/footer.js",
 		FileSize:   2572,
-		ModifyTime: 1514271647,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/5RV227bRhO+N+B3GDM/QtKRSMv+g7pUGUNWjCJF6qaxjRZwDWO1HEpbkbv07lKHxrov
 UPR9+kDtexRLUTwoqltTF9rDzPfNef3Dw/09OIShRKIxgtESvkF9LgnjCj5MsistZOoVIjcKZQDfYkST
@@ -308,7 +308,7 @@ jr2JemFoaSIVXIkEvUSMnencNZRp9uBpSejUHKxf+NKkvwMAAP//Wmg4PAwKAAA=
 	"/assets/js/page/console.js": {
 		FileName:   "assets/js/page/console.js",
 		FileSize:   5350,
-		ModifyTime: 1518269207,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/7RYX2/rthV/96fg5QJYmh0pfegenChDm5vuZsh6uyR361AUAS0dy0woUiEpO1ma7z6Q
 +kfRcuZeoHoIIvLwd8758fyTj4JVxVNNBUdBiF4nE4QQ2hCJUsH5afdWqBwl6CjAfypUjsN+g4l2gwl/
@@ -343,7 +343,7 @@ cTUc3OMYNYmmUILc5oudDwQ8R385qftvHL+5Vd4Reu1ytv9pr+0tUQ76koH59/uXqyzA3u99zWtUw92J
 	"/assets/js/page/index.js": {
 		FileName:   "assets/js/page/index.js",
 		FileSize:   1072,
-		ModifyTime: 1496674736,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/4xTz2rbThC+71MM+v3AkmNWii8BG9NDC22vrSmFEsxaGsVrr1fO7qyTNBh6DvTYngpt
 XyDkbvI2jZvHKFrF/4gC0UGH+b6Z/Wbmm7jZZNCElwYFYQbDC5hiliooNLSTw6P4MD7iDJoxy51OSRYa
@@ -360,7 +360,7 @@ C8ZITrEv0wkS9MAivdWEZi5UuD5DaLWTJCnZ28Pssn8BAAD//w3N87swBAAA
 	"/assets/js/page/tasks.js": {
 		FileName:   "assets/js/page/tasks.js",
 		FileSize:   532,
-		ModifyTime: 1515907893,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/2SRzWrjMBSF93qKQwhIcoJ/MjAb402GySyGQAvdtCELxZYTNbYVZCWt2+Tdi2U7LlSL
 D6F77tH9CTyPwMMfI4WVGXYNSpmlBXSFRRj9DqJFsAh9Ai8gJD9XqVW6glWlFHvNLvyTAIA1TXdpj5H2
@@ -374,7 +374,7 @@ mCjr5z5lk2EzE37fEY/JjcfkKwAA//9Y+UgoFAIAAA==
 	"/assets/js/snapshot_footprint.js": {
 		FileName:   "assets/js/snapshot_footprint.js",
 		FileSize:   254,
-		ModifyTime: 1509258526,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/1yNMUvEQBBG+/0VH6k2BHL2cREUCxsL0Uoslt1JMrCZkb2Jp8j9dwl3itxUA2/emwNL
 1kOvUjRmBIyrJGMV3+LbOQD4iBVR0qx1j4CsaV1IrJ/I7gtt6/726zlOj3Eh38SmHU7aqBV+cxkBVwMY
@@ -386,7 +386,7 @@ nopHd3TO/QQAAP//nDYkC/4AAAA=
 	"/favicon.ico": {
 		FileName:   "favicon.ico",
 		FileSize:   9662,
-		ModifyTime: 1514805677,
+		ModifyTime: 1624349474,
 		Compressed: `
 H4sIAAAAAAAA/7RaeWwc1RnfFDSevW9742N37bV314699vqMbeKkOCmhKmmbQlo1aUsgmF5QKFWgf0AS
 DrUUFRXlKIfSgloolWpjE8TREEhpUSsFSiAJOSDEIaTBAePYzikUfdXvm3nTmb28m01X+vRmd97M/H7f

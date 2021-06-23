@@ -17,7 +17,7 @@ limitations under the License.
 package filter
 
 import (
-	"github.com/infinitbyte/framework/core/pipeline"
+	"github.com/huminghe/framework/core/pipeline"
 )
 
 // EmptyJoint is a place holder

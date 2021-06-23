@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/infinitbyte/framework/core/orm"
-	"github.com/infinitbyte/framework/core/util"
+	"github.com/huminghe/framework/core/orm"
+	"github.com/huminghe/framework/core/util"
 	"time"
 )
 

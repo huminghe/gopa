@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/global"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/model"
+	"github.com/huminghe/framework/core/global"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/model"
 )
 
 // TaskDeduplicationJoint is used to find whether the task already in the database

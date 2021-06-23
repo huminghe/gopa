@@ -17,8 +17,8 @@ limitations under the License.
 package api
 
 import (
-	"github.com/infinitbyte/framework/core/api"
-	"github.com/infinitbyte/framework/core/api/router"
+	"github.com/huminghe/framework/core/api"
+	"github.com/huminghe/framework/core/api/router"
 	"net/http"
 	"time"
 )

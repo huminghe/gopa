@@ -18,11 +18,11 @@ package output
 
 import (
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/errors"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/config"
-	"github.com/infinitbyte/gopa/model"
-	"github.com/infinitbyte/gopa/pipeline/joints/common"
+	"github.com/huminghe/framework/core/errors"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/config"
+	"github.com/huminghe/gopa/model"
+	"github.com/huminghe/gopa/pipeline/joints/common"
 )
 
 const name string = "save_task"

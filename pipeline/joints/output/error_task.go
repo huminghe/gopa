@@ -17,9 +17,9 @@ limitations under the License.
 package output
 
 import (
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/model"
-	"github.com/infinitbyte/gopa/pipeline/joints/common"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/model"
+	"github.com/huminghe/gopa/pipeline/joints/common"
 )
 
 type ErrorTaskJoint struct {

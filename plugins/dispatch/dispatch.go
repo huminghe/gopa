@@ -2,13 +2,13 @@ package dispatch
 
 import (
 	log "github.com/cihub/seelog"
-	cfg "github.com/infinitbyte/framework/core/config"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/core/queue"
-	"github.com/infinitbyte/framework/core/stats"
-	"github.com/infinitbyte/framework/core/util"
-	"github.com/infinitbyte/gopa/config"
-	"github.com/infinitbyte/gopa/model"
+	cfg "github.com/huminghe/framework/core/config"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/core/queue"
+	"github.com/huminghe/framework/core/stats"
+	"github.com/huminghe/framework/core/util"
+	"github.com/huminghe/gopa/config"
+	"github.com/huminghe/gopa/model"
 	"time"
 )
 

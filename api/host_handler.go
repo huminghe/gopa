@@ -18,9 +18,9 @@ package api
 
 import (
 	"encoding/json"
-	api "github.com/infinitbyte/framework/core/api"
-	"github.com/infinitbyte/framework/core/api/router"
-	"github.com/infinitbyte/gopa/model"
+	api "github.com/huminghe/framework/core/api"
+	"github.com/huminghe/framework/core/api/router"
+	"github.com/huminghe/gopa/model"
 	"net/http"
 	"strconv"
 )

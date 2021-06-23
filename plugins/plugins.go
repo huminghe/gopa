@@ -17,11 +17,11 @@ limitations under the License.
 package plugins
 
 import (
-	"github.com/infinitbyte/framework/core/module"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/plugins/chrome"
-	"github.com/infinitbyte/gopa/plugins/dispatch"
-	"github.com/infinitbyte/gopa/plugins/lang_detect"
+	"github.com/huminghe/framework/core/module"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/plugins/chrome"
+	"github.com/huminghe/gopa/plugins/dispatch"
+	"github.com/huminghe/gopa/plugins/lang_detect"
 )
 
 func Register() {

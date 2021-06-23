@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/core/util"
-	"github.com/infinitbyte/gopa/config"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/core/util"
+	"github.com/huminghe/gopa/config"
 )
 
 // getDefaultCrawlerConfig return a default PipeRunnerConfig

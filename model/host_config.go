@@ -17,9 +17,9 @@ limitations under the License.
 package model
 
 import (
-	"github.com/infinitbyte/framework/core/errors"
-	"github.com/infinitbyte/framework/core/orm"
-	"github.com/infinitbyte/framework/core/util"
+	"github.com/huminghe/framework/core/errors"
+	"github.com/huminghe/framework/core/orm"
+	"github.com/huminghe/framework/core/util"
 	"regexp"
 	"time"
 )

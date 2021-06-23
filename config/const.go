@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/infinitbyte/framework/core/errors"
+	"github.com/huminghe/framework/core/errors"
 )
 
 const (

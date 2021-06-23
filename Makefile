@@ -25,10 +25,10 @@ PATH := $(PATH):$(GOPATH)/bin
 # Go environment
 CURDIR := $(shell pwd)
 OLDGOPATH:= $(GOPATH)
-NEWGOPATH:= $(CURDIR):$(CURDIR)/vendor:$(GOPATH)
+NEWGOPATH:= $(GOPATH)
 
 GO        := GO15VENDOREXPERIMENT="1" go
-GOBUILD  := GOPATH=$(NEWGOPATH) CGO_ENABLED=1  $(GO) build -ldflags -s -gcflags "-m -m"
+GOBUILD  := GOPATH=$(GOPATH) CGO_ENABLED=1  $(GO) build -ldflags -s -gcflags "-m -m"
 GOBUILDNCGO  := GOPATH=$(NEWGOPATH) CGO_ENABLED=0  $(GO) build -ldflags -s
 GOTEST   := GOPATH=$(NEWGOPATH) CGO_ENABLED=1  $(GO) test -ldflags -s
 
@@ -121,11 +121,7 @@ clean: clean_data
 
 init:
 	@echo building $(APP_NAME) $(APP_VERSION)
-	@if [ ! -d $(FRAMEWORK_FOLDER) ]; then echo "framework does not exist";(cd ../&&git clone -b $(FRAMEWORK_BRANCH) https://github.com/infinitbyte/framework.git) fi
-	@if [ ! -d $(FRAMEWORK_VENDOR_FOLDER) ]; then echo "framework vendor does not exist";(git clone  -b $(FRAMEWORK_VENDOR_BRANCH) https://github.com/infinitbyte/framework-vendor.git vendor) fi
-	@if [ "" == $(FRAMEWORK_OFFLINE_BUILD) ]; then (cd $(FRAMEWORK_FOLDER) && git pull origin $(FRAMEWORK_BRANCH)); fi;
-	@if [ "" == $(FRAMEWORK_OFFLINE_BUILD) ]; then (cd vendor && git pull origin $(FRAMEWORK_VENDOR_BRANCH)); fi;
-	@if [ "" == $(FRAMEWORK_OFFLINE_BUILD) ]; then $(GO) get -u github.com/ledongthuc/pdf; fi;
+
 
 update-generated-file:
 	@echo "update generated info"
@@ -140,11 +136,11 @@ restore-generated-file:
 
 
 update-vfs:
-	@if [ -d $(APP_STATIC_FOLDER) ]; then  echo "generate static files";$(GO) get github.com/infinitbyte/framework/cmd/vfs;(cd $(APP_STATIC_FOLDER) && vfs -ignore="static.go|.DS_Store" -o static.go -pkg static . ) fi
+	@if [ -d $(APP_STATIC_FOLDER) ]; then  echo "generate static files";$(GO) get github.com/huminghe/framework/cmd/vfs;(cd $(APP_STATIC_FOLDER) && vfs -ignore="static.go|.DS_Store" -o static.go -pkg static . ) fi
 
 update-template-ui:
-	@if [ -d $(APP_UI_FOLDER) ]; then  (echo "generate main UI pages";$(GO) get github.com/infinitbyte/ego/cmd/ego;cd $(APP_UI_FOLDER)/ && ego) fi
-	@if [ -d $(APP_PLUGIN_FOLDER) ]; then  (echo "generate plugin UI pages";$(GO) get github.com/infinitbyte/ego/cmd/ego;cd $(APP_PLUGIN_FOLDER)/ && ego) fi
+	@if [ -d $(APP_UI_FOLDER) ]; then  (echo "generate main UI pages";$(GO) get github.com/infinitbyte/ego;cd $(APP_UI_FOLDER)/ && ego) fi
+	@if [ -d $(APP_PLUGIN_FOLDER) ]; then  (echo "generate plugin UI pages";$(GO) get github.com/infinitbyte/ego;cd $(APP_PLUGIN_FOLDER)/ && ego) fi
 
 #config: init update-vfs update-template-ui
 config: init update-vfs update-template-ui update-generated-file
@@ -227,5 +223,5 @@ cyclo:
 	gocyclo -top 10 -over 12 $$(ls -d */ | grep -v vendor)
 
 benchmarks:
-	go test github.com/infinitbyte/gopa/core/util -benchtime=1s -bench ^Benchmark -run ^$
-	go test github.com/infinitbyte/gopa/modules/crawler/pipe -benchtime=1s -bench  ^Benchmark -run ^$
+	go test github.com/huminghe/gopa/core/util -benchtime=1s -bench ^Benchmark -run ^$
+	go test github.com/huminghe/gopa/modules/crawler/pipe -benchtime=1s -bench  ^Benchmark -run ^$

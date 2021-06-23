@@ -18,9 +18,9 @@ package input
 
 import (
 	"errors"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/core/util"
-	"github.com/infinitbyte/gopa/model"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/core/util"
+	"github.com/huminghe/gopa/model"
 	"time"
 )
 

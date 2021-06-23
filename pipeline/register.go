@@ -18,10 +18,10 @@ package pipeline
 
 import (
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/pipeline/joints/filter"
-	"github.com/infinitbyte/gopa/pipeline/joints/input"
-	"github.com/infinitbyte/gopa/pipeline/joints/output"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/pipeline/joints/filter"
+	"github.com/huminghe/gopa/pipeline/joints/input"
+	"github.com/huminghe/gopa/pipeline/joints/output"
 )
 
 var inited bool = false

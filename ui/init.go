@@ -17,15 +17,15 @@ limitations under the License.
 package ui
 
 import (
-	"github.com/infinitbyte/framework/core/api"
-	"github.com/infinitbyte/framework/core/env"
-	"github.com/infinitbyte/framework/core/ui"
-	"github.com/infinitbyte/framework/core/vfs"
-	core "github.com/infinitbyte/framework/modules/ui/common"
-	"github.com/infinitbyte/gopa/static"
-	"github.com/infinitbyte/gopa/ui/search"
-	"github.com/infinitbyte/gopa/ui/search/common"
-	"github.com/infinitbyte/gopa/ui/websocket"
+	"github.com/huminghe/framework/core/api"
+	"github.com/huminghe/framework/core/env"
+	"github.com/huminghe/framework/core/ui"
+	"github.com/huminghe/framework/core/vfs"
+	core "github.com/huminghe/framework/modules/ui/common"
+	"github.com/huminghe/gopa/static"
+	"github.com/huminghe/gopa/ui/search"
+	"github.com/huminghe/gopa/ui/search/common"
+	"github.com/huminghe/gopa/ui/websocket"
 	"net/http"
 )
 

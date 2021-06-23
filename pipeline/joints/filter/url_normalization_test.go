@@ -17,10 +17,10 @@ limitations under the License.
 package filter
 
 import (
-	"github.com/infinitbyte/framework/core/env"
-	"github.com/infinitbyte/framework/core/global"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/gopa/model"
+	"github.com/huminghe/framework/core/env"
+	"github.com/huminghe/framework/core/global"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/gopa/model"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

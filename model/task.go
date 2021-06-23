@@ -2,10 +2,10 @@ package model
 
 import (
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/errors"
-	"github.com/infinitbyte/framework/core/orm"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/core/util"
+	"github.com/huminghe/framework/core/errors"
+	"github.com/huminghe/framework/core/orm"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/core/util"
 	"time"
 )
 

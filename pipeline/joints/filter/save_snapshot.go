@@ -19,12 +19,12 @@ package filter
 import (
 	"fmt"
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/errors"
-	"github.com/infinitbyte/framework/core/kv"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/core/stats"
-	"github.com/infinitbyte/gopa/config"
-	"github.com/infinitbyte/gopa/model"
+	"github.com/huminghe/framework/core/errors"
+	"github.com/huminghe/framework/core/kv"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/core/stats"
+	"github.com/huminghe/gopa/config"
+	"github.com/huminghe/gopa/model"
 )
 
 type SaveSnapshotToDBJoint struct {

@@ -18,17 +18,17 @@ package main
 
 import (
 	_ "expvar"
-	"github.com/infinitbyte/framework"
-	"github.com/infinitbyte/framework/core/module"
-	"github.com/infinitbyte/framework/core/orm"
-	pipeline2 "github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/modules"
-	"github.com/infinitbyte/gopa/api"
-	"github.com/infinitbyte/gopa/config"
-	"github.com/infinitbyte/gopa/model"
-	"github.com/infinitbyte/gopa/pipeline"
-	"github.com/infinitbyte/gopa/plugins"
-	"github.com/infinitbyte/gopa/ui"
+	"github.com/huminghe/framework"
+	"github.com/huminghe/framework/core/module"
+	"github.com/huminghe/framework/core/orm"
+	pipeline2 "github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/modules"
+	"github.com/huminghe/gopa/api"
+	"github.com/huminghe/gopa/config"
+	"github.com/huminghe/gopa/model"
+	"github.com/huminghe/gopa/pipeline"
+	"github.com/huminghe/gopa/plugins"
+	"github.com/huminghe/gopa/ui"
 )
 
 func main() {

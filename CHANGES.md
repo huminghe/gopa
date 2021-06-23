@@ -27,7 +27,7 @@
 #### v0.11
 
 ##### breaking changes
-1. extract common codebase to another repo: https://github.com/infinitbyte/framework
+1. extract common codebase to another repo: https://github.com/huminghe/framework
 2. sqlite retired, elasticsearch is the first citizen
 
 ##### features

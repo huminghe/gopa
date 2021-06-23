@@ -19,14 +19,14 @@ package websocket
 import (
 	"encoding/json"
 	log "github.com/cihub/seelog"
-	"github.com/infinitbyte/framework/core/global"
-	logging "github.com/infinitbyte/framework/core/logger"
-	"github.com/infinitbyte/framework/core/pipeline"
-	"github.com/infinitbyte/framework/core/queue"
-	"github.com/infinitbyte/framework/core/ui/websocket"
-	"github.com/infinitbyte/framework/core/util"
-	"github.com/infinitbyte/gopa/config"
-	"github.com/infinitbyte/gopa/model"
+	"github.com/huminghe/framework/core/global"
+	logging "github.com/huminghe/framework/core/logger"
+	"github.com/huminghe/framework/core/pipeline"
+	"github.com/huminghe/framework/core/queue"
+	"github.com/huminghe/framework/core/ui/websocket"
+	"github.com/huminghe/framework/core/util"
+	"github.com/huminghe/gopa/config"
+	"github.com/huminghe/gopa/model"
 	"strings"
 )
 
